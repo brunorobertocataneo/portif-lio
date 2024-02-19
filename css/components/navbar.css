@@ -1,0 +1,18 @@
+.navbar{
+	height: rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #131313;
+}
+
+.navbar .logo{
+	width: 6rem;
+	height: 6rem;
+	background-color: none;
+}
+
+.navbar  a{
+	margin: 0rem 1rem;
+	color: white;
+}
