@@ -4,7 +4,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 	flex-direction: column;
 }
 
@@ -348,4 +347,38 @@
 
 .gallery-controls{
 	background-color: transparent;
+}
+
+@media (max-width: 1030px){
+	.container_body{
+		flex-direction: column;
+	}
+	.main_text1{
+		width: 20rem;
+		font-size: 10px;
+	}
+	.line{
+		width: 25px;
+	}
+	.main_experiences{
+		width: 15rem;
+	}
+	.container_icons{
+		align-items: center;
+		font-size: 20px;
+		width: 20rem;
+	}
+	.icons{
+		display: none;
+	}
+	.subtitle_second{
+		font-size: 15px;
+	}
+	.container_body_2{
+		width: 100%;
+	}
+	.gallery img{
+		width: 7rem;
+		height: 12rem;
+	}
 }

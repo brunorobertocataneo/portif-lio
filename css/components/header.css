@@ -10,7 +10,7 @@
 	justify-content: center;
 	align-items: right;
 	flex-direction: column;
-	background-color: #242424;
+	background-color: transparent;
 }
 
 .header1 h2{
@@ -133,4 +133,22 @@
 
 .navbar a:hover{
 	color: #5FBDFF;
+}
+
+
+@media (max-width: 687px){
+	.container_header{
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+	}
+	.header1{
+		margin: 1rem;
+		width: 100%;
+		height: auto;
+	}
+	.text1{
+		text-align: center;
+	}
+
 }
